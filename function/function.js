@@ -1,5 +1,5 @@
 // function hello (){
-    
+
 // }
 // hello();
 
@@ -149,7 +149,7 @@ function register(name, email, age, gender, password) {
 function generateSessionToken() {
     return Math.random().toString(36).substr(2); // Simple token generation
 }
-console.log("test" ,generateSessionToken());
+console.log("test", generateSessionToken());
 
 function login(email, password) {
     for (let user of userList) {
@@ -214,3 +214,9 @@ cart.addItem("Pineapple", 4);
 cart.addItem("Apple", 3); // Apple quantity should be updated
 
 cart.displayCart();
+
+
+function car() {
+    console.log("this is car")
+}
+console.log("hello");
